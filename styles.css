@@ -5,6 +5,7 @@
     padding: 0px;
 }
 
+/*---------------- Header ---------------------*/
 header {
     display: flex;
     /*width: 100%;*/
@@ -86,6 +87,24 @@ a:hover{
     */
 }
 
+/*------------------ Body -------------------------*/
+body{
+    background-color: #dab496;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*------------------ Index.html -------------------*/
 .content h1, h3, h4{
     color: #2b3a47;
 }
@@ -94,6 +113,16 @@ a:hover{
     color:black;
 }
 
+.genre{
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.genre li::before{
+    content: "- ";
+}
+
+/*-------------------- Projects.html -------------------*/
 .projects{
     padding-bottom: 35px;
 }
@@ -130,48 +159,10 @@ a:hover{
     margin-bottom: 5px;
 }
 
-.contactus{
-   text-align: center;
-   color: #2b3a47;
-}
-
-.box{
-   text-align: center;
-   width: 80%;
-   margin: 20px auto;
-   background-color:#c4a186;
-   border: 1px solid #ad8e76;
-   padding: 15px;
-   border-radius: 5px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.box p{
-    color:rgb(255, 255, 255);
-}
-
-.phone_icon{
-    width: 30px;
-    height: 30px;
-}
-
-body{
-    background-color: #dab496;
-}
-
-footer{
-    width: 100%;
-    position:absolute;
-    bottom: 0;
-    color:#d6c7ae;
-    background-color: #034b64;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
+/*---------------- Experience.html ------------------*/
 .experience h2{
     padding-top: 25px;
+    color: #2b3a47;
 }
 
 table{
@@ -225,37 +216,79 @@ td h3{
     padding-left: 120px;
 }
 
-.genre{
-    padding-left: 20px;
-    list-style-type: none;
-}
-
-.genre li::before{
-    content: "- ";
-}
-
 .task{
     padding-left: 40px;
-}
-
-.experience h2{
-    color: #2b3a47;
 }
 
 .experience a{
     color: #394d5d;
 }
+/*--------------------------------------------------*/
 
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+
+
+/*------------ Contact.html ------------------ */
+
+.content legend{
+    text-align: center;
 }
+
+.content form{
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+}
+
+.content fieldset{
+    padding: 3px;
+}
+
+.content label{
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+}
+
+.content input, .content textarea{
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contactus{
+   text-align: center;
+   color: #2b3a47;
+}
+
+.box{
+   text-align: center;
+   width: 80%;
+   margin: 20px auto;
+   background-color:#c4a186;
+   border: 1px solid #ad8e76;
+   padding: 15px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box p{
+    color:rgb(255, 255, 255);
+}
+
+.phone_icon{
+    width: 30px;
+    height: 30px;
+}
+
+/*--------------------------------------------*/
+
+/*------------ footer ------------------ */
 
 .footer{
     background: #034b64;
@@ -264,6 +297,17 @@ td h3{
 }
 .footer p{
     text-align: center;
+}
+
+footer{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    color:#d6c7ae;
+    background-color: #034b64;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
