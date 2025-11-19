@@ -20,7 +20,7 @@ function validateForm()
 
         let body = `From: ${email}\nPhone: ${num}\nMessage: ${message}\n`
 
-        let mailtolink = `mailto:divyabajaj0025@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        let mailtolink = `mailto:sam.elibec@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         window.location.href = mailtolink;
     }
